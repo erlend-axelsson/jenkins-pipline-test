@@ -1,5 +1,3 @@
-@Library('test pipeline') _
-
 node {
     stage('git pull'){
         sh "git init"
