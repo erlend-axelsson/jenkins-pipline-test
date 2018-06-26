@@ -9,4 +9,7 @@ node {
     stage('Deploy') {
         echo 'Deploying....'
     }
+    stage('Testing jenkins scm polling') {
+        echo 'It\'s alive!'
+    }
 }
